@@ -1,0 +1,19 @@
+﻿@using MyDetails.Models
+@{
+    ViewBag.Title = "Contact me ";
+}
+
+<div class="jumbotron" style="color:darkblue">
+    <h2><u>@ViewBag.Title</u></h2>
+    <h3>@ViewBag.Message</h3>
+    <div style="color:midnightblue ; font-size:14px">
+        @model Contacts
+        <addr>
+            @Model.name<br /> 
+            @Model.company<br />
+            @Model.address<br />
+            @Model.telephone<br />
+            <a>@Model.email </a><br />
+    </addr>
+</div>
+</div>

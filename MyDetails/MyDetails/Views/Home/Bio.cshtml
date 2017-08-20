@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "My Details";
+}
+
+
+<div class="jumbotron">
+    <h2 style="color:darkblue"><u>@ViewBag.Title</u></h2>
+  
+        <ul style="color:midnightblue ; font-size:14px">
+            <li><b>Name : </b><i>@ViewData["myname"]</i></li>
+            <li><b>City : </b><i>@ViewData["mycity"]</i></li>
+            <li><b>Email : </b><a><i>@ViewData["myemail"]</a></i></li>
+        <li><b>Occupation : </b><i>@ViewData["myocc"]</i></li>
+        <li><b>Company : </b><i>@ViewData["mycompany"]</i></li>
+    </ul>
+
+</div>
+<div class="row">
+    <div class="col-md-12" style="color:midnightblue">
+        <h3>Go to "Contact" tab to contact ...</h3>
+
+    </div>
+</div>
